@@ -45,8 +45,9 @@ int main() {
 
     printf("Número de pontos turisticos: ");
     scanf("%d", &numeros);
-
-    printf("Agora vamos lar a carta 2:\n");
+    
+    printf("\n");
+    printf("Agora vamos ler a carta 2:\n");
 
     printf("Carta 2:\n");
     printf("Estado: ");
@@ -61,7 +62,7 @@ int main() {
     printf("População: ");
     scanf("%d", &populacao);
 
-    printf("Área:  km²");
+    printf("Área: ");
     scanf("%f", &area);
 
     printf("PIB: ");
@@ -70,6 +71,8 @@ int main() {
     printf("Número de Pontos Túristicos: ");
     scanf("%d", &numeros);
 
+    printf("\n");
+    printf("Muito bem, as cartas foram lidas com sucesso.");
     
 
     return 0;
